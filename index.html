@@ -2,8 +2,24 @@
 <html>
     <head>
         <title>D&D Companion App</title>
+        <link rel="stylesheet" href="./css/styles.css"/>
     </head>
     <body>
-        <h1>This page is under construction.</h1>
+        <script type="module" src="./js/script.js"></script>
+        <div class="top_level_container">
+            <h1>This page is under construction.</h1>
+            <div class="multi_panel_container">
+                <div class="single_panel_container">
+                    <h2>Initiative tracker</h2>
+                    <div class="initiative_panel panel">
+                        <input type="button" value="Add character">
+                    </div>
+                </div>
+                <div class="single_panel_container">
+                    <h2>Character stat block</h2>
+                    <div id="stat_block" class="stat_block_panel panel"></div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
